@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{  font-family: "Inter", serif;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+.con{width: 1200px; margin: auto; align-items: center; margin-top: 30px;}
+.flex{display: flex; justify-content: space-between;}
+.con img{width: 161px; height: 114px;}
+.con ul{display: flex; gap: 30px; font-size: 20px; font-weight: 500; text-transform: uppercase;}
+.icon{ display:flex;  gap: 5px;}
+.title{ text-align: center; margin: 30px;}
+.title h1{font-size: 64px; font-family: "Playfair Display", serif; padding: 10px; font-weight: lighter;}
+p{font-size: 20px; margin: 20px;}
+.btn{background: #A79B6D; width: 363px; height: 82px; border-radius: 0 30px; color: white; font-size: 20px; margin-top: 10px; border: none;}
+.box{width: 243.2; padding: 40px; justify-content: center; gap: 10px;}
+.box img{width: 100%; height: 280px;}
+.b, .d, .f{border-radius: 0 60px;}
+.c, .e{border-radius: 60px 0;}
+.amount{text-align: center; justify-content: center;}
+.amount h1{font-size: 64px;}
+.number{border-right: 2px solid gray; margin: 0 30px; padding-right: 30px; line-height: 0.8;}
+.products{display: flex; justify-content: center;}
